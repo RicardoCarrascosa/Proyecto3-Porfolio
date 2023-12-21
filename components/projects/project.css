@@ -1,0 +1,51 @@
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Programming Cards */
+.programming {
+  text-align: center;
+  width: 30%;
+  padding: 0.5rem;
+  background-color: var(--secondary);
+  border-radius: 1rem;
+}
+.programming > h2 {
+  padding: 0.25rem;
+  background-color: var(--terciary);
+  border-radius: 0.5rem;
+  color: black;
+}
+.programming > img {
+  width: 90%;
+  border-radius: 0.5rem;
+}
+.programming > p {
+  text-align: justify;
+}
+
+/* Design CArd */
+.design {
+  text-align: center;
+  width: 30%;
+  padding: 0.5rem;
+  background-color: var(--primary);
+  border-radius: 1rem;
+}
+.design > h2 {
+  padding: 0.25rem;
+  background-color: var(--terciary);
+  border-radius: 0.5rem;
+  color: black;
+}
+.design > img {
+  width: 90%;
+  border-radius: 0.5rem;
+}
+.design > p {
+  text-align: justify;
+}

@@ -1,0 +1,16 @@
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.skill {
+  background-color: var(--secondary);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.skill > img {
+  height: 50px;
+}

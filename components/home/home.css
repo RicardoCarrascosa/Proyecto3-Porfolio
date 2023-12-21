@@ -1,0 +1,18 @@
+.personal {
+  background-color: var(--secondary);
+}
+.personal > * {
+  color: var(--background);
+}
+h1 {
+  color: var(--primary);
+}
+.findMe {
+  background-color: var(--terciary);
+}
+.findMe > * {
+  color: var(--background);
+}
+.findMe li {
+  color: var(--background);
+}

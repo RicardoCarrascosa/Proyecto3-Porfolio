@@ -1,10 +1,29 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  --background: #342e37;
+  --font: #fafffd;
+
+  --primary: #fa824c;
+  --secondary: #3c91e6;
+  --terciary: #a2d729;
+
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--background);
+}
+* {
+  color: var(--font);
 }
