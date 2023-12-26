@@ -5,7 +5,7 @@ export const projects = [
     description: 'Color picker on a screen',
     languages: 'HTML5 / CSS / JS',
     image: '../../assets/programmingIcon.png',
-    link: 'https://stackoverflow.com/questions/17576996/flickering-colors-while-hovering-css',
+    link: 'https://color-flipper-ricatti.netlify.app/',
     privacy: 'public',
     company: 'ThePower - RockTheCode',
     year: '2023'
@@ -15,8 +15,8 @@ export const projects = [
     name: 'ShopSelector',
     description: 'Filters a product by price and shop',
     languages: 'HTML5 / CSS / JS',
-    image: '',
-    link: '',
+    image: '../../assets/programming2.png',
+    link: 'https://remarkable-moxie-01215e.netlify.app/',
     privacy: 'public',
     company: 'ThePower - RockTheCode',
     year: '2023'
@@ -26,43 +26,43 @@ export const projects = [
     name: 'Chasis Program - Uptool',
     description: 'Calculates the Geometry of a morotbike depending on the setting',
     languages: 'Java',
-    image: '',
-    link: '',
+    image: '../../assets/upgrowthImage.png',
+    link: 'https://www.facebook.com/upgrowth.team/',
     privacy: 'private',
     company: 'Uptool',
-    year: '2014-2019'
+    year: '2014-2020'
   },
-  {
-    type: 'programming',
-    name: 'Indices Analiser',
-    description:
-      'Calculates Indices from MotoGP Data source, and generates indices based on specific conditions',
-    languages: 'Python',
-    image: '',
-    link: '',
-    privacy: 'confidential',
-    company: 'HRC',
-    year: '2023'
-  },
-  {
-    type: 'programming',
-    name: 'LapTime Analiser',
-    description:
-      'Reads Laptime XML sheet, proceses, saves in Database and display in a user friendly way',
-    languages: 'C#',
-    image: '',
-    link: '',
-    privacy: 'confidential',
-    company: 'HRC',
-    year: '2023'
-  },
+  // {
+  //   type: 'programming',
+  //   name: 'Indices Analiser',
+  //   description:
+  //     'Calculates Indices from MotoGP Data source, and generates indices based on specific conditions',
+  //   languages: 'Python',
+  //   image: '../../assets/programming3.png',
+  //   link: 'https://quiet-pika-035e6e.netlify.app/',
+  //   privacy: 'confidential',
+  //   company: 'HRC',
+  //   year: '2023'
+  // },
+  // {
+  //   type: 'programming',
+  //   name: 'LapTime Analiser',
+  //   description:
+  //     'Reads Laptime XML sheet, proceses, saves in Database and display in a user friendly way',
+  //   languages: 'C#',
+  //   image: '../../assets/programmingIcon.png',
+  //   link: 'https://quiet-pika-035e6e.netlify.app/',
+  //   privacy: 'confidential',
+  //   company: 'HRC',
+  //   year: '2023'
+  // },
   {
     type: 'Design',
     name: 'MotorBike Frame',
     description: 'Design and manufacture a 250cc race Bike for MotoStudent',
-    languages: '',
-    image: '',
-    link: '',
+    languages: 'SolidWorks',
+    image: '../../assets/designImage.png',
+    link: 'https://quiet-pika-035e6e.netlify.app/',
     privacy: 'public',
     company: 'University Of Malaga',
     year: '2012-2013'
@@ -72,8 +72,8 @@ export const projects = [
     name: 'Optimizing manoeuvres for long collision active system of a car.',
     description: 'Genetic Algorithm to determint eh optimal maneouble to avoid a crash',
     languages: 'MatLab',
-    image: '',
-    link: '',
+    image: '../../assets/programming2.png',
+    link: 'https://quiet-pika-035e6e.netlify.app/',
     privacy: 'public',
     company: 'University Of Skövde',
     year: '2013'
@@ -82,9 +82,9 @@ export const projects = [
     type: 'Design',
     name: 'Design and manufacture a kart',
     description: 'Design and manufacture a kart for the Alevin/Cadete and Micro/mini Max series.',
-    languages: '',
-    image: '',
-    link: '',
+    languages: 'PTC Creo',
+    image: '../../assets/designImage.png',
+    link: 'https://quiet-pika-035e6e.netlify.app/',
     privacy: 'private',
     company: 'Monlau Competicion',
     year: '2014'
@@ -93,9 +93,9 @@ export const projects = [
     type: 'Design',
     name: 'Design and simulation of shock absorber for a non tripulated airplane',
     description: 'Design and simulation of shock absorber for a non tripulated airplane',
-    languages: 'Matlab',
-    image: '',
-    link: '',
+    languages: 'Matlab - PTC Creo',
+    image: '../../assets/programming3.png',
+    link: 'https://quiet-pika-035e6e.netlify.app/',
     privacy: 'private',
     company: 'Nadal Tech',
     year: '2015'
@@ -105,8 +105,8 @@ export const projects = [
     name: 'Race car shock analysis software.',
     description: 'Race Car shock damping and rate analisis software',
     languages: 'C#',
-    image: '',
-    link: '',
+    image: '../../assets/programmingIcon.png',
+    link: 'https://quiet-pika-035e6e.netlify.app/',
     privacy: 'private',
     company: 'Nadal Tech',
     year: '2016'

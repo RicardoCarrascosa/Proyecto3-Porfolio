@@ -4,10 +4,14 @@
   -webkit-font-smoothing: antialiased;
   --background: #342e37;
   --font: #fafffd;
+  --font2: #c1bdb3;
 
-  --primary: #fa824c;
-  --secondary: #3c91e6;
-  --terciary: #a2d729;
+  --primary: #c17817;
+  /* #fa824c; */
+  --secondary: #253d5b;
+  /* #3c91e6; */
+  --terciary: #8b939c;
+  /* #7f7979; */
 
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
@@ -22,7 +26,12 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-color: var(--background);
+}
+#app {
+  width: 100%;
 }
 * {
   color: var(--font);

@@ -3,9 +3,8 @@ import { projects } from '../../data/projectList'
 
 const projectHTML = `
 <section class= "projects">
-  <h2>My projects: </h2>
+  <h2>Projects I have done: </h2>
   <div class= "project-container">
-
   </div>
 </section>
 `

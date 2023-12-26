@@ -2,8 +2,8 @@ import './skills.css'
 import { skillList } from '../../data/skillsList'
 
 const skillHTML = `
-<section class= "Skills">
-  <h2>Skills: </h2>
+<section class= "skills">
+  <h2>Skills I have been learning during the years: </h2>
   <div class= "skill-container">
 
   </div>
@@ -16,7 +16,7 @@ const skillContainerRender = (skill) => {
   }
   const TemplateSkills = `
   <div class='skill'>
-    <img src = "${skill.logoUrl}" alt =''>${skill.name}</img>
+    <img src = "${skill.logoUrl}" alt ='${skill.name}'</img>
     <p> ${ratingStars} </p>
   </div>
   `
