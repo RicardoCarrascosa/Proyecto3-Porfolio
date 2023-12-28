@@ -10,3 +10,16 @@
 .personal > * {
   color: black;
 }
+
+@media (max-width: 450px) {
+  .personal > h1,
+  h2 {
+    font-size: 1.25rem;
+  }
+  .personal {
+    left: 2%;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

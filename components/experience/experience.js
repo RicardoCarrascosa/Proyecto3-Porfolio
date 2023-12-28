@@ -17,8 +17,9 @@ const experienceStudiesCard = (experience) => {
   let studiesHTML = `
 <a class='studiesCard' href=${experience.url}>
   <img src="${experience.companyLogo}" alt="${experience.company}"></img>
-  <h3> ${experience.description} </p>
-  <h4> ${experience.company} | ${experience.year}</h4>
+  <h3> ${experience.description} </h3>
+  <h4>${experience.company}</h4>
+  <h4>${experience.year}</h4>
 </a>
 `
   return studiesHTML
@@ -29,7 +30,7 @@ const workCard = (experience) => {
 <a class='workCard' href=${experience.url}>
   <img src="${experience.companyLogo}" alt="${experience.company}"></img>
   <h3>${experience.role}</h3>
-  <h4> ${experience.company} | ${experience.year}</h4>
+  <h4>${experience.company} | ${experience.year}</h4>
   <p> ${experience.description} </p>
   
 </a>

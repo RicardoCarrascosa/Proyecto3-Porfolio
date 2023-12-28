@@ -24,3 +24,17 @@
 .skill > img {
   height: 50px;
 }
+@media (max-width: 750px) {
+  .skill-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 470px) {
+  .skill-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .skill > img {
+    height: 40px;
+  }
+}

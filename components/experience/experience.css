@@ -59,8 +59,48 @@
 }
 .studiesCard > img {
   height: 100px;
+  max-width: 150px;
   border-radius: 5px;
 }
 .studiesCard > h3 {
   font-size: 1rem;
+  text-align: center;
+}
+.studiesCard > h4 {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .workCard > h4 {
+    font-size: 0.75rem;
+  }
+  .workCard > h3 {
+    font-size: 1rem;
+  }
+  .workCard > p {
+    font-size: 0.75rem;
+  }
+  .workCard > img {
+    height: 50px;
+    max-width: 75px;
+  }
+
+  .studies-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .studiesCard > img {
+    height: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .workCard > h4 {
+    display: none;
+  }
+  .workCard {
+    grid-template-columns: 1fr 2fr;
+  }
+  .studies-container {
+    grid-template-columns: 1fr;
+  }
 }
