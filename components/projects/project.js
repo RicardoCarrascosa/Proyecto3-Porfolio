@@ -11,7 +11,7 @@ const projectHTML = `
 const programingProjectCard = (project) => {
   // Encontrar estilo diferenciador entre esto y diseño
   let ppcHTML = `
-<a class='projectCard programming' href="${project.link}">
+<a class='projectCard programming' target=“_blank” href="${project.link}">
 
   <h2>${project.name} </h2>
   <img src="${project.image}" alt="${project.name}"></img>
@@ -24,7 +24,7 @@ const programingProjectCard = (project) => {
 }
 const designProjectCard = (project) => {
   let dpcHTML = `
-  <a class='projectCard design' href="${project.link}">
+  <a class='projectCard design' target=“_blank” href="${project.link}">
     <h2>${project.name}</h2>
     <img src="${project.image}" alt="${project.name}"></img>
     <p> ${project.description}</p>

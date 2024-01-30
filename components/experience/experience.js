@@ -15,7 +15,7 @@ const experienceHTML = `
 `
 const experienceStudiesCard = (experience) => {
   let studiesHTML = `
-<a class='studiesCard' href=${experience.url}>
+<a class='studiesCard' target=“_blank” href=${experience.url}>
   <img src="${experience.companyLogo}" alt="${experience.company}"></img>
   <h3> ${experience.description} </h3>
   <h4>${experience.company}</h4>
@@ -27,7 +27,7 @@ const experienceStudiesCard = (experience) => {
 
 const workCard = (experience) => {
   let studiesHTML = `
-<a class='workCard' href=${experience.url}>
+<a class='workCard' target=“_blank” href=${experience.url}>
   <img src="${experience.companyLogo}" alt="${experience.company}"></img>
   <h3>${experience.role}</h3>
   <h4>${experience.company} | ${experience.year}</h4>
