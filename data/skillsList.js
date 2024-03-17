@@ -46,14 +46,12 @@ export const skillList = [
   },
   {
     name: 'Matlab',
-    logoUrl: '../../assets/Logos/Matlab_logo.png',
+    logoUrl: '../../assets/Logos/Matlab_Logo.png',
     rating: 4
   },
   {
     name: 'CreoParametric',
     logoUrl: '../../assets/Logos/ptc-logo.png',
     rating: 4
-  },
-  { name: 'Wintax', logoUrl: '', rating: 5 },
-  { name: 'Sysma', logoUrl: '', rating: 5 }
+  }
 ]

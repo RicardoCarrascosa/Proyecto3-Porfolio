@@ -25,14 +25,13 @@
 }
 
 body {
-  padding: 0;
-  margin: 0;
   background-color: var(--background);
   width: 100%;
-  min-height: 80vh;
 }
 #app {
   width: 100%;
+  min-height: calc(80vh - 2rem);
+  padding-top: 2rem;
 }
 * {
   color: var(--font);
@@ -42,6 +41,7 @@ body {
 
 header {
   height: 10vh;
+  width: 100%;
 }
 footer {
   height: 10vh;

@@ -1,6 +1,3 @@
-header {
-  width: 100%;
-}
 nav {
   width: 95%;
   height: 2rem;
@@ -13,9 +10,6 @@ nav {
   gap: 0.5rem;
   list-style-type: none;
   background-color: var(--background);
-}
-#app {
-  padding-top: 3rem;
 }
 
 a {
